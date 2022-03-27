@@ -1,12 +1,12 @@
-from glide_text2im.gaussian_diffusion import get_named_beta_schedule
-from glide_text2im.respace import SpacedDiffusion, space_timesteps
-from glide_text2im.text2im_model import (
+from Glide_Text_2_Image.gaussian_diffusion import get_named_beta_schedule
+from Glide_Text_2_Image.respace import SpacedDiffusion, space_timesteps
+from Glide_Text_2_Image.text2im_model import (
     InpaintText2ImUNet,
     SuperResInpaintText2ImUnet,
     SuperResText2ImUNet,
     Text2ImUNet,
 )
-from glide_text2im.tokenizer.bpe import get_encoder
+from Glide_Text_2_Image.tokenizer.bpe import get_encoder
 
 
 def model_and_diffusion_defaults():
